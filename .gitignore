@@ -9,7 +9,6 @@ Secrets*.toml
 **/*.rs.bk
 
 # Shuttle (local env/config files)
-shuttle.toml
 .env
 .env.local
 *.secrets.json
