@@ -1,0 +1,38 @@
+
+/target
+.shuttle*
+Secrets*.toml
+
+# Rust / Cargo
+/target/
+/Cargo.lock
+**/*.rs.bk
+
+# Shuttle (local env/config files)
+shuttle.toml
+.env
+.env.local
+*.secrets.json
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage / Testing
+/coverage/
+/htmlcov/
+/lcov.info
+
+# Backup / Temp files
+*.tmp
+*.bak
+*.old
